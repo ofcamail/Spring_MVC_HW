@@ -21,6 +21,7 @@ public class SpringMVCController {
         model.addAttribute("newCountry", country);
         model.addAttribute("newCapital", capital);
         return "showInfo";
+
     }
 
 }
